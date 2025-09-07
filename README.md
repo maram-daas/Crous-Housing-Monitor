@@ -28,7 +28,7 @@ It works **only** with the official CROUS website:
 
 ## 📦 How to use (non-developers)
 
-1. Download and run the provided **`CrousAlert.exe`**  
+1. Download and run the provided **`CrousAlert.exe`** (It might trigger a warning but it's 100% safe to use so run it anyway.) 
 2. Enter your **Target City** (e.g. *Paris*)  
 3. Enter your **Telegram Bot Token**  
    - Create a bot via [BotFather](https://t.me/BotFather)  
