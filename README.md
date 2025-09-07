@@ -1,6 +1,6 @@
 # 🏠 CROUS City Monitor
 
-**A desktop application that monitors CROUS housing listings in France and instantly notifies you via Telegram.**  
+**A desktop web scraper application that monitors CROUS housing listings in France and instantly notifies you via Telegram.**  
 
 It works **only** with the official CROUS website:  
 🔗 [https://trouverunlogement.lescrous.fr/](https://trouverunlogement.lescrous.fr/)  
@@ -48,8 +48,9 @@ The app will send you a Telegram message when it starts, when it stops, and when
 - ❌ **Settings not saving?**  
   Make sure the app has permission to write to the repository folder (check file permissions).  
 
-- 🔑 **Never share your Telegram Bot Token!**  
-  Anyone with it could control your bot. Keep it private.  
+- 🛡️ **Antivirus flags the app as suspicious?**  
+  This is a common false positive with executables created by **PyInstaller**.  
+  The app is safe — you can whitelist it in your antivirus settings.  
 
 ---
 
@@ -62,6 +63,20 @@ You’ll need the following Python libraries (install via `pip install`):
 - `requests`  
 - `beautifulsoup4`  
 - `lxml` (recommended for parsing)  
+
+---
+
+## 📌 Usage Notes  
+
+This project works by **scraping the CROUS housing website**:  
+[https://trouverunlogement.lescrous.fr/](https://trouverunlogement.lescrous.fr/)  
+
+Please:  
+- Use it responsibly  
+- Don’t set overly aggressive intervals that might overload the website’s servers  
+
+🔑 **Never share your Telegram Bot Token!**  
+Anyone with it could control your bot. Keep it private.  
 
 ---
 
@@ -82,11 +97,8 @@ If you have:
 
 ## 📄 License
 
-
 This project is licensed under the [MIT License](LICENSE) — you are free to use, modify, and share it.  
-
 
 ---
 
 *P.S. If you ever find this useful, please keep me in your prayers ☁️*  
-
