@@ -82,7 +82,9 @@ If you have:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — you are free to use, modify, and share it.  
+
+This project is licensed under the [MIT License](LICENSE) — you are free to use, modify, and share it.  
+
 
 ---
 
